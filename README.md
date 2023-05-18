@@ -3,7 +3,7 @@
 declare -A Host
 Host=( [node1]='10.1.1.11' [node2]='10.1.1.12' [node3]='10.1.1.13' [node4]='10.1.1.14' )
 
-# Traversing dictionary values.
+# Traversing dictionary values.1
 for node_ip in ${Host[@]};
 do
   echo "One IP of these hosts is ${node_ip} .";
